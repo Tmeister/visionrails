@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html id="home" lang="en"> 
+<head> 
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=940" />
+  <title>The Magg Magazine | HTML Themes</title>
+  <!-- Theme Style -->
+  <%= stylesheet_link_tag 'app/general' %>
+  <%= stylesheet_link_tag 'style/style' %>
+  <%= stylesheet_link_tag 'font' %>
+  <!--[if IE 8]> <style> @import url("/css/style/ie8.css"); </style> <![endif]-->
+  <!-- JS -->
+  <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'%>
+  <%= javascript_include_tag 'general'%>
+  <%= javascript_include_tag 'filter'%>
+  <%= javascript_include_tag 'general'%>
+  <%= javascript_include_tag 'yoxview/yoxview-init'%>
+  <%= javascript_include_tag 'rails' %>
+  <%= csrf_meta_tag %>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".yoxview").yoxview();
+    });
+  </script>
+</head>
+
+<body>
+	<!-- Container Start -->
+        <div class="container_16">
+ 		<div class="top-search grid_16"></div>  <!-- Navigation Menu -->
+		<div class="grid_16">
+			<div id="navi">         
+	        		<div id="menu" class="default">
+					<div id="logo-top"></div>
+				        <div id="logo-back"><img src="image/theme/logo.png" width="131" height="57"></div> 
+					<ul class="sf-menu">
+						<!-- Home Menu-->
+						<li class="current"><a href="index.html">Home</a></li>
+						<!-- Theme Menu-->
+					   	<li class="current"><a href="#ab">Theme</a>
+        	      					<ul>
+                						<li><a href="#">Shortcode</a>
+	                  						<ul>
+	                    							<li><a href="button-example.html">Button Example</a></li>
+        	            							<li><a href="shortcode.html">Layouts Example</a></li>
+						                	    	<li><a href="typography.html">Typography</a></li>
+						                  	</ul>
+						                </li>
+							</ul>
+						</li>
+        			    	</ul>
+			        </div><!-- close menu --> 
+    			</div><!-- close navi -->
+                        <!-- Big Message -->
+                        <div class="top-message-right grid_10">
+				<h2><img src='image/theme/homeicon.png' >Home » The Portfolio Page » Portfolio Style Three</h2>
+			</div>    
+			<div class="grid_6"></div>
+			<div id="page-shape-air"></div>
+		</div>
+                
+                <!-- Services List -->
+		<div class="grid_16 services yoxview">
+			<div id="icon-portfolio"></div>
+			<h1>The Portfolio Page</h1>
+		</div>	
+
+		<div class="grid_16">
+			<p id="catpicker" class="tabfilter">
+				<a href="#" id="allcat" class="current">ALL</a>
+		      		<a href="#" id="illustration" class="filter">illustration</a>
+	      			<a href="#" id="logo" class="filter">logo style</a>
+		      		<a href="#" id="web" class="filter">web design</a>
+		      		<a href="#" id="photo" class="filter">photo</a>
+			</p>
+		</div>
+
+
+                <%= yield%>
+
+
+
+                <div class="grid_16 footer">
+			<div id="footer-shape"></div>
+			<div class="grid_8 footer-link">
+				<p>Copright © 2010 iamthemes.com. All rights reserved. W3C standart web valid xhtml and css</p>
+				<ul>
+		        		<li><a href="#">Terms Magg</a> </li> 
+				        <li><a href="#">Privacy</a></li> 
+				        <li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="grid_7 footer-button">
+				<ul>
+			        	<li><a href="#"><img src="image/theme/footer-facebook.png" width="24" height="24"></a></li>
+				        <li><a href="#"><img src="image/theme/footer-twitter.png" width="24" height="24"></a></li>
+				        <li><a href="#"><img src="image/theme/footer-rss.png" width="24" height="24"></a></li>
+				</ul>
+			</div>
+		</div>  
+		<div class="grid_16 clear-footer"></div>
+	</div><!-- Container End -->
+</body> 
+</html> 
+
+
+
+
+

@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'AlternateGothic2BTRegular';
+	src: url('../font/alternate_gothic_no2_bt-webfont.eot');
+	src: local('☺'), url('../font/alternate_gothic_no2_bt-webfont.woff') format('woff'), url('../font/alternate_gothic_no2_bt-webfont.ttf') format('truetype'), url('../font/alternate_gothic_no2_bt-webfont.svg#webfontkqfH036R') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'NationalPrimaryNormal';
+	src: url('../font/national_primary-webfont.eot');
+	src: local('☺'), url('../font/national_primary-webfont.woff') format('woff'), url('../font/national_primary-webfont.ttf') format('truetype'), url('../font/national_primary-webfont.svg#webfontxIghVkHN') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'KudosBlackSSiBlack';
+    src: url('../font/kudos_black_ssi_black-webfont.eot');
+    src: url('../font/kudos_black_ssi_black-webfont.eot?iefix') format('eot'),
+         url('../font/kudos_black_ssi_black-webfont.woff') format('woff'),
+         url('../font/kudos_black_ssi_black-webfont.ttf') format('truetype'),
+         url('../font/kudos_black_ssi_black-webfont.svg#webfontGY6aKC9h') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GregsHandRegular';
+    src: url('../font/gregh__-webfont.eot');
+    src: url('../font/gregh__-webfont.eot?iefix') format('eot'),
+         url('../font/gregh__-webfont.woff') format('woff'),
+         url('../font/gregh__-webfont.ttf') format('truetype'),
+         url('../font/gregh__-webfont.svg#webfonth7hpUW9s') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AgentConDBNormal';
+    src: url('../font/agentcondb_normal-webfont.eot');
+    src: url('../font/agentcondb_normal-webfont.eot?iefix') format('eot'),
+         url('agentcondb_normal-webfont.woff') format('woff'),
+         url('../font/agentcondb_normal-webfont.ttf') format('truetype'),
+         url('../font/agentcondb_normal-webfont.svg#webfontDDY1RQE0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Arista20Regular';
+    src: url('../font/arista2.0-webfont.eot');
+    src: url('../font/arista2.0-webfont.eot?iefix') format('eot'),
+         url('../font/arista2.0-webfont.woff') format('woff'),
+         url('../font/arista2.0-webfont.ttf') format('truetype'),
+         url('../font/arista2.0-webfont.svg#webfont4Jjjp9QR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
